@@ -1,0 +1,82 @@
+. {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #01051e;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 31, 31,);
+    padding: 10px;
+}
+
+.point {
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding: 50px;
+    font-size: 120%;
+
+}
+.container {
+    color: white;
+    text-decoration: none;
+    
+}
+.container > li > a:hover {
+    color: #ff7d3b;
+}
+
+.nav-btn {
+    background-color: #ff7d3b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 200%;
+}
+
+.champ_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.champion_text{
+    width: 600px;
+}
+.champion_text{
+    font-size:40%;
+    
+}
+.champion_text{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.champion_img > img{
+    width: 300px;
+}
+
+
+    
+
+
